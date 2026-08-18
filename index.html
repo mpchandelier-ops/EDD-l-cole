@@ -182,67 +182,67 @@
   <p class="section-intro">Des projets menés sur plusieurs années scolaires, chacun ancré dans le territoire et les enjeux du développement durable. Cliquez pour en découvrir le détail complet.</p>
   <div class="projects-grid">
 
-    <div class="project-card" onclick="openModal('oiseaux')">
-      <div class="card-stripe" style="background:linear-gradient(90deg,#56c02b,#3f7e44)"></div>
-      <div class="card-header"><div class="card-emoji">🐦</div><div><div class="card-title">Oiseaux de la vallée de la Clarée</div><div class="card-odds"><span class="odd-badge">ODD 15</span><span class="odd-badge">ODD 4</span><span class="odd-badge">ODD 12</span></div></div></div>
-      <div class="card-body">Observation, fabrication de mangeoires et nichoirs, sortie terrain, exposés scientifiques… Un projet complet mené toute l'année avec des naturalistes.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
-    </div>
-
     <div class="project-card" onclick="openModal('refuge')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#56c02b,#1b4965)"></div>
       <div class="card-header"><div class="card-emoji">🏔️</div><div><div class="card-title">Sortie au Refuge de Buffère</div><div class="card-odds"><span class="odd-badge">ODD 15</span><span class="odd-badge">ODD 13</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Journée d'immersion en montagne : oiseaux en milieu naturel, botanique alpine, insectes, course d'orientation et compréhension des effets du changement climatique sur les glaciers.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('refuge')">Voir le projet en détail →</button></div>
+    </div>
+
+    <div class="project-card" onclick="openModal('oiseaux')">
+      <div class="card-stripe" style="background:linear-gradient(90deg,#56c02b,#3f7e44)"></div>
+      <div class="card-header"><div class="card-emoji">🐦</div><div><div class="card-title">Oiseaux de la vallée de la Clarée</div><div class="card-odds"><span class="odd-badge">ODD 15</span><span class="odd-badge">ODD 4</span><span class="odd-badge">ODD 12</span></div></div></div>
+      <div class="card-body">Observation, fabrication de mangeoires et nichoirs, sortie terrain, exposés scientifiques… Un projet complet mené toute l'année avec des naturalistes.</div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('oiseaux')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('cantine')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#bf8b2e,#fd9d24,#3f7e44)"></div>
       <div class="card-header"><div class="card-emoji">🗑️</div><div><div class="card-title">Valorisation des déchets de la cantine</div><div class="card-odds"><span class="odd-badge">ODD 12</span><span class="odd-badge">ODD 11</span><span class="odd-badge">ODD 13</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Circuit local avec les familles du village pour valoriser les déchets alimentaires et sensibiliser à l'économie circulaire.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('cantine')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('petitdej')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#4c9f38,#bf8b2e)"></div>
       <div class="card-header"><div class="card-emoji">🥣</div><div><div class="card-title">Petit déjeuner équilibré</div><div class="card-odds"><span class="odd-badge">ODD 3</span><span class="odd-badge">ODD 12</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">L'infirmière scolaire a proposé un petit déjeuner bio, local et peu transformé. Les élèves ont composé leur repas idéal et découvert les effets des aliments sur la santé.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('petitdej')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('papier')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#bf8b2e,#56c02b)"></div>
       <div class="card-header"><div class="card-emoji">📄</div><div><div class="card-title">Papier recyclé et tri des déchets</div><div class="card-odds"><span class="odd-badge">ODD 12</span><span class="odd-badge">ODD 15</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Sensibilisation au tri, au recyclage du papier et à la préservation des ressources naturelles par des ateliers pratiques.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('papier')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('art')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#fd6925,#56c02b)"></div>
       <div class="card-header"><div class="card-emoji">🎨</div><div><div class="card-title">Art et environnement avec Jean-François Béné</div><div class="card-odds"><span class="odd-badge">ODD 6</span><span class="odd-badge">ODD 15</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Sensibilisation à l'environnement par une approche artistique utilisant des sédiments de la Clarée comme pigments.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('art')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('neige')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#3f7e44,#00689d)"></div>
       <div class="card-header"><div class="card-emoji">❄️</div><div><div class="card-title">Neige et avalanche</div><div class="card-odds"><span class="odd-badge">ODD 13</span><span class="odd-badge">ODD 11</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Journée d'immersion avec pisteurs secouristes et pompiers : DVA, chiens d'avalanche, nivologie et comportements responsables en montagne.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('neige')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('tortue')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#0a97d9,#56c02b)"></div>
       <div class="card-header"><div class="card-emoji">🐢</div><div><div class="card-title">Parrainage de la tortue Chloé</div><div class="card-odds"><span class="odd-badge">ODD 14</span><span class="odd-badge">ODD 15</span><span class="odd-badge">ODD 13</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Suivi GPS en temps réel d'une tortue marine parrainée par l'école pour sensibiliser à la protection des espèces marines.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('tortue')">Voir le projet en détail →</button></div>
     </div>
 
     <div class="project-card" onclick="openModal('watty')">
       <div class="card-stripe" style="background:linear-gradient(90deg,#fcc30b,#3f7e44)"></div>
       <div class="card-header"><div class="card-emoji">⚡</div><div><div class="card-title">Programme Watty</div><div class="card-odds"><span class="odd-badge">ODD 7</span><span class="odd-badge">ODD 13</span><span class="odd-badge">ODD 12</span><span class="odd-badge">ODD 4</span></div></div></div>
       <div class="card-body">Sensibilisation aux économies d'énergie et adoption d'écogestes au quotidien dans le cadre de la transition écologique nationale.</div>
-      <div class="card-cta"><button class="btn-detail">Voir le projet en détail →</button></div>
+      <div class="card-cta"><button class="btn-detail" onclick="event.stopPropagation();openModal('watty')">Voir le projet en détail →</button></div>
     </div>
 
   </div>
@@ -375,7 +375,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeO
 
 const ODDS={1:{color:'#e5233d',title:'Pas de pauvreté',desc:"Éliminer la pauvreté sous toutes ses formes et partout dans le monde. Cet objectif vise à garantir que chaque être humain dispose de ressources suffisantes pour vivre dignement.",school:"À l'école Émilie Carles, solidarité, équité et accès aux droits pour tous sont des valeurs portées par l'ensemble de notre démarche EDD."},2:{color:'#dda73a',title:'Faim zéro',desc:"Éliminer la faim, assurer la sécurité alimentaire et promouvoir une agriculture durable. Cet objectif appelle à repenser nos systèmes alimentaires.",school:"🥣 Le projet Petit déjeuner équilibré sensibilise les élèves aux produits locaux, biologiques et peu transformés."},3:{color:'#4c9f38',title:'Bonne santé et bien-être',desc:"Permettre à tous de vivre en bonne santé et promouvoir le bien-être de tous à tout âge.",school:"🥣 Projet Petit déjeuner équilibré — sensibilisation à l'alimentation saine et aux effets des aliments sur la santé."},4:{color:'#c5192d',title:'Éducation de qualité',desc:"Assurer l'accès de tous à une éducation de qualité et promouvoir les possibilités d'apprentissage tout au long de la vie.",school:"🌱 Tous nos projets EDD contribuent à cet objectif fondamental, en offrant une éducation ancrée dans le réel et les enjeux du monde."},5:{color:'#ff3a21',title:'Égalité entre les sexes',desc:"Parvenir à l'égalité des sexes et autonomiser toutes les femmes et les filles.",school:"L'école porte le nom d'Émilie Carles, institutrice et militante féministe emblématique de la vallée de la Clarée."},6:{color:'#26bde2',title:'Eau propre et assainissement',desc:"Garantir l'accès de tous à l'eau et assurer une gestion durable des ressources en eau.",school:"🎨 Projet Art avec Jean-François Béné — les élèves ont travaillé avec l'eau et les sédiments de la Clarée, développant une sensibilité à la rivière."},7:{color:'#fcc30b',title:'Énergie propre et abordable',desc:"Garantir l'accès à des services énergétiques fiables et durables. La transition vers les énergies renouvelables est indispensable.",school:"⚡ Programme Watty — les élèves ont appris à mesurer leur consommation et adopté des écogestes concrets."},8:{color:'#a21942',title:'Travail décent et croissance économique',desc:"Promouvoir une croissance économique durable et un travail décent pour tous.",school:"À travers les projets EDD, les élèves développent coopération, esprit critique et engagement — socle d'une vie active responsable."},9:{color:'#fd6925',title:'Industrie, innovation et infrastructure',desc:"Bâtir une infrastructure résiliente et encourager l'innovation durable.",school:"Les projets EDD encouragent la curiosité scientifique et la résolution de problèmes réels — compétences clés pour les innovateurs de demain."},10:{color:'#dd1367',title:'Inégalités réduites',desc:"Réduire les inégalités dans les pays et d'un pays à l'autre.",school:"La démarche EDD valorise l'inclusion et l'équité. Le parrainage de Chloé sensibilise aux inégalités environnementales mondiales."},11:{color:'#fd9d24',title:'Villes et communautés durables',desc:"Faire en sorte que les villes et établissements humains soient ouverts, sûrs, résilients et durables.",school:"🗑️ Déchets de la cantine — circuit court vertueux dans le village. ❄️ Neige et avalanche — prévention des risques naturels sur notre territoire."},12:{color:'#bf8b2e',title:'Consommation et production responsables',desc:"Établir des modes de consommation et de production durables.",school:"🗑️ Déchets de la cantine · 📄 Papier recyclé · 🥣 Petit déjeuner équilibré · ⚡ Programme Watty — quatre projets centrés sur la consommation responsable."},13:{color:'#3f7e44',title:'Lutte contre les changements climatiques',desc:"Prendre d'urgence des mesures pour lutter contre les changements climatiques.",school:"❄️ Neige et avalanche — impact du climat sur le manteau neigeux. 🏔️ Refuge de Buffère — observation des glaciers en recul. ⚡ Watty — réduire son empreinte carbone."},14:{color:'#0a97d9',title:'Vie aquatique',desc:"Conserver et exploiter durablement les océans, mers et ressources marines.",school:"🐢 Parrainage de la tortue Chloé — sensibilisation aux menaces sur la faune marine et à la protection des océans."},15:{color:'#56c02b',title:'Vie terrestre',desc:"Préserver et restaurer les écosystèmes terrestres, gérer durablement les forêts et protéger la biodiversité.",school:"🐦 Oiseaux de la Clarée · 🏔️ Refuge de Buffère · 🎨 Art avec Béné · 📄 Papier recyclé — quatre projets au service de la vie terrestre."},16:{color:'#00689d',title:'Paix, justice et institutions efficaces',desc:"Promouvoir des sociétés pacifiques, l'accès à la justice et des institutions responsables.",school:"L'EMC présent dans tous nos projets nourrit cet objectif. Les conseils d'école participatifs, où les élèves décident des actions à mener, en sont un exemple."},17:{color:'#19486a',title:'Partenariats pour la réalisation des objectifs',desc:"Renforcer les moyens de mettre en œuvre le Partenariat mondial pour le développement durable.",school:"🤝 LPO, Communauté de Communes, pisteurs, pompiers, Kélonia, Refuge de Buffère, artistes, AMM, parents bénévoles — cette richesse partenariale est au cœur de notre démarche."}};
 
-function openOdd(n){const o=ODDS[n];if(!o)return;const panel=document.getElementById('odd-panel');document.getElementById('odd-panel-header').style.background=o.color;document.getElementById('odd-panel-num').textContent=n;document.getElementById('odd-panel-title').textContent=o.title;document.getElementById('odd-panel-desc').textContent=o.desc;document.getElementById('odd-panel-school').innerHTML='<strong>🌱 À l'école Émilie Carles :</strong> '+o.school;panel.style.display='block';setTimeout(()=>panel.scrollIntoView({behavior:'smooth',block:'nearest'}),50);}
+function openOdd(n){const o=ODDS[n];if(!o)return;const panel=document.getElementById('odd-panel');document.getElementById('odd-panel-header').style.background=o.color;document.getElementById('odd-panel-num').textContent=n;document.getElementById('odd-panel-title').textContent=o.title;document.getElementById('odd-panel-desc').textContent=o.desc;document.getElementById('odd-panel-school').innerHTML='<strong>🌱 \u00c0 l\u2019\u00e9cole \u00c9milie Carles\u00a0:</strong> '+o.school;panel.style.display='block';setTimeout(()=>panel.scrollIntoView({behavior:'smooth',block:'nearest'}),50);}
 function closeOdd(){document.getElementById('odd-panel').style.display='none';}
 </script>
 </body>
